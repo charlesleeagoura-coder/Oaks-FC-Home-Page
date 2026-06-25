@@ -1,4 +1,10 @@
-<!-- Oaks FC — paste this entire block into Sprocket's HTML / Code embed block -->
+<!-- ============================================================
+     OAKS FC  —  Sprocket embed
+     Paste this ENTIRE block into Sprocket's HTML / Code embed block.
+     The ?v=20260625 on the URL forces browsers to load the newest
+     version instead of a cached copy. If you ever still see an old
+     version, just bump that number (e.g. v=20260626) and re-save.
+     ============================================================ -->
 <style>
   .oaksfc-embed-wrap {
     position: relative;
@@ -8,41 +14,31 @@
     max-height: 900px;
     overflow: hidden;
     margin: 0 auto;
+    background: #000;
   }
-
   .oaksfc-embed-wrap iframe {
     position: absolute;
-    top: 0;
-    left: 0;
+    inset: 0;
     width: 100%;
     height: 100%;
     border: none;
     display: block;
   }
-
   /* Tablet */
   @media (max-width: 1024px) {
-    .oaksfc-embed-wrap {
-      height: 80vh;
-      min-height: 420px;
-    }
+    .oaksfc-embed-wrap { height: 80vh; min-height: 420px; }
   }
-
   /* Mobile */
   @media (max-width: 600px) {
-    .oaksfc-embed-wrap {
-      height: 100svh;
-      min-height: 380px;
-      max-height: 100svh;
-    }
+    .oaksfc-embed-wrap { height: 100svh; min-height: 380px; max-height: 100svh; }
   }
 </style>
 
 <div class="oaksfc-embed-wrap">
   <iframe
-    src="https://charlesleeagoura-coder.github.io/Oaks-FC-Home-Page/"
+    src="https://charlesleeagoura-coder.github.io/Oaks-FC-Home-Page/?v=20260625"
     title="Oaks FC"
-    loading="lazy"
+    loading="eager"
     referrerpolicy="no-referrer"
     allowfullscreen
   ></iframe>
