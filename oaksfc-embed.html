@@ -59,9 +59,11 @@
   .oaksfc-front img,
   .oaksfc-back img {
     display: block;
-    width: min(90vw, clamp(220px, 50vh, 520px));
+    width: auto;
     height: auto;
-    max-height: 55vh;
+    max-width: 88vw;
+    max-height: 60vh;
+    object-fit: contain;
     filter: drop-shadow(0 12px 40px rgba(0,0,0,0.70));
   }
   .oaksfc-name {
