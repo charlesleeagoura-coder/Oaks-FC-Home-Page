@@ -1,0 +1,49 @@
+<!-- Oaks FC — paste this entire block into Sprocket's HTML / Code embed block -->
+<style>
+  .oaksfc-embed-wrap {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    min-height: 480px;
+    max-height: 900px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+  .oaksfc-embed-wrap iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+  }
+
+  /* Tablet */
+  @media (max-width: 1024px) {
+    .oaksfc-embed-wrap {
+      height: 80vh;
+      min-height: 420px;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 600px) {
+    .oaksfc-embed-wrap {
+      height: 100svh;
+      min-height: 380px;
+      max-height: 100svh;
+    }
+  }
+</style>
+
+<div class="oaksfc-embed-wrap">
+  <iframe
+    src="https://charlesleeagoura-coder.github.io/Oaks-FC-Home-Page/"
+    title="Oaks FC"
+    loading="lazy"
+    referrerpolicy="no-referrer"
+    allowfullscreen
+  ></iframe>
+</div>
