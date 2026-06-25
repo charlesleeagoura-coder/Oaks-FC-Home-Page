@@ -42,11 +42,13 @@
   }
   .oaksfc-spin {
     position: relative;
+    width: min(80vw, 50vh, 500px);
     animation: oaksfc-spinY 8s linear infinite;
     transform-style: preserve-3d;
   }
   .oaksfc-front,
   .oaksfc-back {
+    width: 100%;
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
   }
@@ -59,11 +61,8 @@
   .oaksfc-front img,
   .oaksfc-back img {
     display: block;
-    width: auto;
+    width: 100%;
     height: auto;
-    max-width: 88vw;
-    max-height: 60vh;
-    object-fit: contain;
     filter: drop-shadow(0 12px 40px rgba(0,0,0,0.70));
   }
   .oaksfc-name {
