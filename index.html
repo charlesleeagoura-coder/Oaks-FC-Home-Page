@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -63,22 +63,23 @@
   .oaksfc-front img,
   .oaksfc-back img {
     display: block;
-    height: clamp(250px, 52vh, 580px);
-    width: auto;
-    max-width: 90vw;
+    width: min(90vw, clamp(220px, 50vh, 520px));
+    height: auto;
+    max-height: 55vh;
     filter: drop-shadow(0 12px 40px rgba(0,0,0,0.70));
   }
   .oaksfc-name {
     color: #ffffff;
     font-family: Georgia, "Times New Roman", serif;
-    font-size: clamp(4.4rem, 12vmin, 8rem);
+    font-size: clamp(2.6rem, 12vmin, 8rem);
     font-weight: 900;
-    letter-spacing: 0.35em;
+    letter-spacing: 0.25em;
     text-transform: uppercase;
     white-space: nowrap;
     text-align: center;
     text-shadow: 0 3px 10px rgba(0,0,0,0.9), 0 0 32px rgba(0,0,0,0.6);
     margin-bottom: -30px;
+    max-width: 95vw;
   }
   .oaksfc-tagline {
     color: #ffffff;
